@@ -18,7 +18,7 @@ app.use(express.json());
 app.get('/api/health', (_request, response) => {
   response.json({ status: 'ok', apiBaseUrl });
 });
-// Define routes for different resources
+// Define routes for different resources and endpoints
 app.use('/api/users', usersRouter);
 app.use('/api/teams', teamsRouter);
 app.use('/api/activities', activitiesRouter);

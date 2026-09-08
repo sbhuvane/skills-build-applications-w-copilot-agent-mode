@@ -1,5 +1,6 @@
 import ResourceView from './ResourceView';
 
+// Codespaces endpoint: https://octofit-tracker-123456-8000.app.github.dev/api/users
 const columns = [
   { key: 'displayName', label: 'Athlete' },
   { key: 'username', label: 'Username' },
